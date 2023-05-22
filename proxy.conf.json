@@ -1,0 +1,10 @@
+{
+  "/cities": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/selectedCities": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

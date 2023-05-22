@@ -1,0 +1,196 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "city": "Mumbai",
+      "country": "India",
+      "temperature": 30,
+      "weather": "Cloudy",
+      "humidity": 75,
+      "wind_speed": 12,
+      "pressure": 1012
+    },
+    {
+      "id": 2,
+      "city": "Delhi",
+      "country": "India",
+      "temperature": 35,
+      "weather": "Sunny",
+      "humidity": 60,
+      "wind_speed": 8,
+      "pressure": 1010
+    },
+    {
+      "id": 3,
+      "city": "Bangalore",
+      "country": "India",
+      "temperature": 28,
+      "weather": "Rainy",
+      "humidity": 85,
+      "wind_speed": 10,
+      "pressure": 1008
+    },
+    {
+      "id": 4,
+      "city": "Chennai",
+      "country": "India",
+      "temperature": 32,
+      "weather": "Partly Cloudy",
+      "humidity": 70,
+      "wind_speed": 14,
+      "pressure": 1015
+    },
+    {
+      "id": 5,
+      "city": "Kolkata",
+      "country": "India",
+      "temperature": 31,
+      "weather": "Thunderstorms",
+      "humidity": 80,
+      "wind_speed": 9,
+      "pressure": 1013
+    },
+    {
+      "id": 6,
+      "city": "Hyderabad",
+      "country": "India",
+      "temperature": 29,
+      "weather": "Sunny",
+      "humidity": 65,
+      "wind_speed": 11,
+      "pressure": 1009
+    },
+    {
+      "id": 7,
+      "city": "Ahmedabad",
+      "country": "India",
+      "temperature": 34,
+      "weather": "Clear",
+      "humidity": 55,
+      "wind_speed": 7,
+      "pressure": 1011
+    },
+    {
+      "id": 8,
+      "city": "Pune",
+      "country": "India",
+      "temperature": 27,
+      "weather": "Rainy",
+      "humidity": 90,
+      "wind_speed": 13,
+      "pressure": 1007
+    },
+    {
+      "id": 9,
+      "city": "Jaipur",
+      "country": "India",
+      "temperature": 36,
+      "weather": "Sunny",
+      "humidity": 50,
+      "wind_speed": 6,
+      "pressure": 1014
+    },
+    {
+      "id": 10,
+      "city": "Lucknow",
+      "country": "India",
+      "temperature": 33,
+      "weather": "Cloudy",
+      "humidity": 68,
+      "wind_speed": 10,
+      "pressure": 1006
+    },
+    {
+      "id": 11,
+      "city": "Kanpur",
+      "country": "India",
+      "temperature": 31,
+      "weather": "Thunderstorms",
+      "humidity": 75,
+      "wind_speed": 11,
+      "pressure": 1008
+    },
+    {
+      "id": 12,
+      "city": "Nagpur",
+      "country": "India",
+      "temperature": 32,
+      "weather": "Partly Cloudy",
+      "humidity": 72,
+      "wind_speed": 9,
+      "pressure": 1012
+    },
+    {
+      "id": 13,
+      "city": "Bhopal",
+      "country": "India",
+      "temperature": 33,
+      "weather": "Clear",
+      "humidity": 62,
+      "wind_speed": 7,
+      "pressure": 1011
+    },
+    {
+      "id": 14,
+      "city": "Indore",
+      "country": "India",
+      "temperature": 34,
+      "weather": "Sunny",
+      "humidity": 58,
+      "wind_speed": 8,
+      "pressure": 1010
+    },
+    {
+      "id": 15,
+      "city": "Patna",
+      "country": "India",
+      "temperature": 30,
+      "weather": "Cloudy",
+      "humidity": 70,
+      "wind_speed": 10,
+      "pressure": 1013
+    },
+    {
+      "id": 16,
+      "city": "Surat",
+      "country": "India",
+      "temperature": 32,
+      "weather": "Partly Cloudy",
+      "humidity": 65,
+      "wind_speed": 11,
+      "pressure": 1014
+    }
+  ],
+  "selectedCities": [
+    {
+      "id": 1,
+      "city": "Mumbai",
+      "country": "India",
+      "temperature": 30,
+      "weather": "Cloudy",
+      "humidity": 75,
+      "wind_speed": 12,
+      "pressure": 1012
+    },
+    {
+      "id": 7,
+      "city": "Ahmedabad",
+      "country": "India",
+      "temperature": 34,
+      "weather": "Clear",
+      "humidity": 55,
+      "wind_speed": 7,
+      "pressure": 1011
+    },
+    {
+      "id": 16,
+      "city": "Surat",
+      "country": "India",
+      "temperature": 32,
+      "weather": "Partly Cloudy",
+      "humidity": 65,
+      "wind_speed": 11,
+      "pressure": 1014
+    }
+  ]
+}

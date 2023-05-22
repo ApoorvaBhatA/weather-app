@@ -1,0 +1,9 @@
+<div class="selected-city">
+  <div class="date">{{ currentDate | date : "medium" }}</div>
+  <h1 class="city">{{ selectedCity.city }}, {{ selectedCity.country }}</h1>
+  <div class="temperature">temperature : {{ selectedCity.temperature }}</div>
+  <div class="data">weather : {{ selectedCity.weather }}</div>
+  <div class="data">humidity : {{ selectedCity.humidity }}</div>
+  <div class="data">wind speed : {{ selectedCity.wind_speed }}</div>
+  <div class="data">pressure : {{ selectedCity.pressure }}</div>
+</div>

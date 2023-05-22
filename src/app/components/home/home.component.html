@@ -1,0 +1,30 @@
+<div class="home-wrap">
+  <h1>WeatherApp</h1>
+  <input
+    placeholder="Enter a City"
+    [(ngModel)]="enteredCity"
+    class="search-bar"
+  />
+  <div *ngIf="enteredCity" class="list-wrap">
+    <div
+      class=""
+      *ngFor="let city of cities | search : ['city'] : enteredCity"
+      (click)="onClickCity(city)"
+    >
+      {{ city.city }}
+    </div>
+  </div>
+
+  <div class="card-wrap">
+    <div class="city-card" *ngFor="let selectedCity of selectedCities">
+      <h2 class="city">{{ selectedCity.city }}, {{ selectedCity.country }}</h2>
+      <div class="temperature">
+        temperature : {{ selectedCity.temperature }}
+      </div>
+      <a routerLink="/city" (click)="onNavigation(selectedCity)"
+        >More details >
+      </a>
+      <button (click)="handleDelete(selectedCity)">Delete</button>
+    </div>
+  </div>
+</div>
